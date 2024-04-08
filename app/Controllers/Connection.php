@@ -8,4 +8,8 @@ class Connection extends BaseController
     {
         return view("login_form");
     }
+    public function attemptLogin(): string
+    {
+        return "on essaie de se connecter !";
+    }
 }
