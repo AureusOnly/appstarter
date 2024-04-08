@@ -10,12 +10,13 @@ class Connection extends BaseController
     }
     public function attemptLogin(): string
     {
-        $values = $this->request->getPOST(['login', 'password']);
-        if(!empty($values) && $values['login'] == APP_ADMIN_LOGIN && $values['password' == APP_ADMIN_PASSWORD])
-        {
-            return "On a reussi à sa connecter !";
-        } else {
-            return" On a pas reussi à se connecter !";
+    $values = $this->request->getPost(['login', 'password']);
+        if (!empty($values) && $values['login'] == APP_ADMIN_LOGIN &&
+        $values['password'] == APP_ADMIN_PASSWORD) {
+            return "On a réussi à se connecter !";
+        }   else {
+            return "On a pas réussi à se connecter !";
         }
+    
     }
 }
