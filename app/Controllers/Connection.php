@@ -25,13 +25,13 @@ class Connection extends BaseController
             !empty($values) && $values['login'] == APP_ADMIN_LOGIN &&
             $values['password'] == APP_ADMIN_PASSWORD
         ) {
-            return redirect()->to("/home");
+            return $this->loginUser();
         } else {
             return redirect()->to("/login");
         }
-        $rechercheAbonne = $abonneModel->getAbonneByMatricule($values['login']);
+        $rechercheabonne = $abonneModel->getAbonneByMatricule($values['login']);
 
-        if (isset($rechercheAbonne) && $rechercheAbonne['nom_abonne'] === $values['password'])
+        if (isset($rechercheabonne) && $rechercheabonne['nom_abonne'] === $values['password'])
             return $this->loginUser($rechercheabonne);
         else {
             return redirect()->to('/login');
@@ -43,7 +43,7 @@ class Connection extends BaseController
     {
         $session = session();
             $session->set([
-                'username' => isset($user) ? ($user['nom_abonne'] . strtoupper($user['nom_abonne'])) : 'Administrator',
+                'username' => isset($user) ? (strtoupper($user['nom_abonne'])) : 'Administrator',
                 'loggedIn' => true
             ]);
         return redirect()->to("home");
