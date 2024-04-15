@@ -1,3 +1,3 @@
-<h2> Welcome to the akashic records, Dear administrator</h2>
+<h2> Welcome Dear administrator</h2>
 
   

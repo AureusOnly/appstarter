@@ -10,7 +10,6 @@
 <body>
     <header>
         <h1>Esicad- Gestion de Bibliothèque</h1>
-        <h2>Akashic Records</h2>
         <?php if (isset($loggedIn) && $loggedIn == true) : ?>
             <span>Bonjour, <?=esc($name) ?></span>
             <?php endif ?>

@@ -7,14 +7,14 @@ class Home extends BaseController
     public function index(): string
     {
         $session = session();
-        $template = 
+        $template =
             view('templates/header', [
-                'loggedIn' =>$session->get('logedIn'),
-                'name' =>$session->get('username')
-            ]) . 
+                'loggedIn' => $session->get('logedIn'),
+                'name' => $session->get('username')
+            ]) . view('admin_accueil') .
             view('templates/footer');
-            return $template;
+        return $template;
+
      
-        return view('admin_accueil');
     }
 }

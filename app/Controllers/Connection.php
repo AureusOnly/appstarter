@@ -2,8 +2,6 @@
 
 namespace App\Controllers;
 
-use PhpParser\Node\Expr\New_;
-
 class Connection extends BaseController
 {
     public function index(): string
