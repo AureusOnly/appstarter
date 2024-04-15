@@ -1,18 +1,19 @@
 
-
     <div class="login">
-        <h1>Se connecter</h1>
+        <h1>Bibliothèque</h1>
         <form method="POST" action="/login">
             <div class="container">
-                <input required="" type="text" name="text" class="input">
-                <label class="label" for="login"> matricule abonné / identifiant admin </label>
-                <input id="login" name="login" type="text"/>
+                <input id="login" required="" type="text" name="login" class="input">
+                <label class="label" for="login"> Utilisateur </label>
             </div>
             <div class="container">
-                <input required="" type="text" name="text" class="input">
-                <label class="label" for="password"> nom abonné / mot de passe admin </label>
-                <input id="password" name="password" type="password"/>
+                <input id="password" required="" type="password" name="password" class="input">
+                <label class="label" for="password"> Mot de Passe </label>
             </div>
-        <button>se connecter</button>
+        <button>
+            <span class="transition"></span>
+            <span class="gradient"></span>
+            <span class="Buttonlabel">Se connecter</span>
+        </button>
     </form>
     </div>

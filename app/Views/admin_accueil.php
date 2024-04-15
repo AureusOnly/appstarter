@@ -1,8 +1,3 @@
-<h2> Welcome Dear administrator</h2>
-
-
-    <div class="menu">
-        <ul>
-            <li class="logo">
+<h2> Welcome to the akashic records, Dear administrator</h2>
 
   
