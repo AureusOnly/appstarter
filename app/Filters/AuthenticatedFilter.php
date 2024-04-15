@@ -2,9 +2,9 @@
 
 namespace App\Filters;
 
-use codeIgniter\Filters\FIlterInterface;
-use codeIgniter\HTTP\RequestInterface;
-use codeIgniter\HTTP\ResponseInterface;
+use CodeIgniter\Filters\FilterInterface;
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\HTTP\ResponseInterface;
 
 class AuthenticatedFilter implements FilterInterface
 
