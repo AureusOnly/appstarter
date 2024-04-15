@@ -32,7 +32,7 @@ class Connection extends BaseController
         $rechercheAbonne = $abonneModel->getAbonneByMatricule($values['login']);
 
         if (isset($rechercheAbonne) && $rechercheAbonne['nom_abonne'] === $values['password'])
-            return $this->loginUser($rechercheAbonne);
+            return $this->loginUser($rechercheabonne);
         else {
             return redirect()->to('/login');
         }
