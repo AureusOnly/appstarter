@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use CodeIgniter\Model;
+
+class abonne extends Model 
+
+{
+    protected $table = 'abonne';
+    protected $primaryKey = 'matricule_abonne';
+    protected $alloowedFields = ['matricule_abonne', 'nom_abonne'];
+}
+
+function getAbonneByMatricule($matricule)
+{
+        return $this->find($matricule);
+}
