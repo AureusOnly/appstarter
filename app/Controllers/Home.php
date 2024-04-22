@@ -9,7 +9,7 @@ class Home extends BaseController
         $session = session();
         $template =
             view('templates/header', [
-                'loggedIn' => $session->get('logedIn'),
+                'loggedIn' => $session->get('loggedIn'),
                 'name' => $session->get('username')
             ]) . view('admin_accueil') .
             view('templates/footer');
