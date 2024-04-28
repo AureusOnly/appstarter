@@ -14,7 +14,5 @@ class Livres extends BaseController
             ]) . view('Livres') .
             view('templates/footer');
         return $template;
-
-     
     }
 }

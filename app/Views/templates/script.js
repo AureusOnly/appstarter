@@ -1,6 +1,6 @@
-const sidebarBtn = document.querySelector('.toggle-btn');
-const sidebar = document.querySelector('.aside');
+const sidebarBtn = document.querySelector(".toggle-btn");
+const sidebar = document.querySelector("aside");
 
-sidebarBtn.addEventListener('click', () => {
-    document.body.classList.toggle('active');
+sidebarBtn.addEventListener("click", () => {
+  document.body.classList.toggle("active");
 });

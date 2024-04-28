@@ -11,7 +11,7 @@ class Abonnes extends BaseController
             view('templates/header', [
                 'loggedIn' => $session->get('loggedIn'),
                 'name' => $session->get('username')
-            ]) . view('abonnes') .
+            ]) . view('abonnes') . view('templates/side_menu').
             view('templates/footer');
         return $template;
 

@@ -1,67 +1,67 @@
-<NAV>
-        <div class="sidebar-header">
-            <a href="" class="logo-wrapper">
-                <img src="" alt="logo">
-                <H2 class="hidden">MENU</H2>
-            </a>
-            <button class="toggle-btn">
-                <img src="" alt="expand button">
-            </button>
-        </div>
+<nav>
+      <div class="sidebar-header">
+        <a class="logo-wrapper">
+          <img src="./assets/logo.svg" alt="Logo">
+          <h2 class="hidden">LOGO</h2>
+        </a>
+        <button class="toggle-btn">
+          <img src="./assets/expand.svg" alt="expand button">
+        </button>
+      </div>
 
+
+      <div class="sidebar-links">
+        <a class="link active">
+          <img src="./assets/home.svg" alt="">
+          <span class="hidden">Home</span>
+        </a>
+        <a href="abonnes" class="link">
+          <img src="./assets/projects.svg" alt="">
+          <span class="hidden">Abonnes</span>
+        </a>
+        <a href="emprunts" class="link">
+          <img src="./assets/dashboard.svg" alt="">
+          <span class="hidden">Emprunts</span>
+        </a>
+        <a href="livres" class="link">
+          <img src="./assets/dashboard.svg" alt="">
+          <span class="hidden">Livres</span>
+        </a>
+        <a href="exemplaires" class="link">
+          <img src="./assets/dashboard.svg" alt="">
+          <span class="hidden">Exemplaires</span>
+        </a>
+        <a href="demandes" class="link">
+          <img src="./assets/dashboard.svg" alt="">
+          <span class="hidden">Demandes</span>
+        </a>
+        <a href="retours" class="link">
+          <img src="./assets/dashboard.svg" alt="">
+          <span class="hidden">Retours</span>
+        </a>
+        </li>
+        <a class="link">
+          <img src="./assets/tasks.svg" alt="">
+          <span class="hidden">Tasks</span>
+        </a>
+      </div>
+
+
+      <div class="sidebar-bottom">
         <div class="sidebar-links">
-            <a href="" class="link active">
-                <img src="" alt="">
-                <span class="hidden">Menu</span>
-            </a>
-    
-            <a href="abonnes.php" class="sidebar-links">
-                <img src="" alt="">
-                <span class="hidden">Gestion des Abonnes</span>
-            </a>
-
-            <a href="emprunts" class="sidebar-links">
-                <img src="" alt="">
-                <span class="hidden">Gestion des Emprunts</span>
-            </a>
-
-            <a href="livres" class="sidebar-links">
-                <img src="" alt="">
-                <span class="hidden">Gestion des Livres</span>
-            </a>
-            <a href="exemplaires" class="sidebar-links">
-                <img src="" alt="">
-                <span class="hidden">Gestion des Exemplaires</span>
-            </a>
-            <a href="demandes" class="sidebar-links">
-                <img src="" alt="">
-                <span class="hidden">Gestion des Demandes</span>
-            </a>
-            <a href="retours" class="sidebar-links">
-                <img src="" alt="">
-                <span class="hidden">Gestion des Retours</span>
-            </a>
-            <a href="deconnexion" class="sidebar-links">
-                <img src="" alt="">
-                <span class="hidden">Deconnexion</span>
-            </a>
-        </div>
-
-    <div class="sidebar-bottom">
-        <div class="sidebar-links">
-            <a href="" class="link">
-                <img src="" alt="">
-                <span class="hidden"></span>
-            </a>
+          <a class="link">
+            <img src="./assets/settings.svg" alt="">
+            <span class="hidden">Settings</span>
+          </a>
         </div>
 
         <div class="user-profile">
-            <div class="user-avatar">
-                <img src="" alt="">
-            </div>
-            <div class="user-details hidden">
-                <p class="username"></p>
-            </div>
+          <div class="user-avatar">
+            <img src="./assets/profile-pic.jpg" alt="">
+          </div>
+          <div class="user-details hidden">
+            <p class="username">Jane Doe</p>
+          </div>
         </div>
-    </div>
-</NAV> 
+      </div>
+    </nav>
