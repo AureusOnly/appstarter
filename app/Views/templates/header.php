@@ -9,8 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Esicad- Gestion de Bibliothèque</h1>
-        <?php if (isset($loggedIn) && $loggedIn == true) : ?>
-            <span>Bonjour, <?=esc($name) ?></span>
-            <?php endif ?>
+    <div class="blue-bg"></div>
+<div class="white-bg shadow"></div>
+<div class="content">
     </header>
