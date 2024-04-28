@@ -1,6 +1,6 @@
 <NAV>
         <div class="sidebar-header">
-            <a class="logo-wrapper">
+            <a href="" class="logo-wrapper">
                 <img src="" alt="logo">
                 <H2 class="hidden">MENU</H2>
             </a>
@@ -10,38 +10,38 @@
         </div>
 
         <div class="sidebar-links">
-            <a class="link active">
+            <a href="" class="link active">
                 <img src="" alt="">
                 <span class="hidden">Menu</span>
             </a>
     
-            <a class="sidebar-links">
+            <a href="abonnes.php" class="sidebar-links">
                 <img src="" alt="">
                 <span class="hidden">Gestion des Abonnes</span>
             </a>
 
-            <a class="sidebar-links">
+            <a href="emprunts" class="sidebar-links">
                 <img src="" alt="">
                 <span class="hidden">Gestion des Emprunts</span>
             </a>
 
-            <a class="sidebar-links">
+            <a href="livres" class="sidebar-links">
                 <img src="" alt="">
                 <span class="hidden">Gestion des Livres</span>
             </a>
-            <a class="sidebar-links">
+            <a href="exemplaires" class="sidebar-links">
                 <img src="" alt="">
                 <span class="hidden">Gestion des Exemplaires</span>
             </a>
-            <a class="sidebar-links">
+            <a href="demandes" class="sidebar-links">
                 <img src="" alt="">
                 <span class="hidden">Gestion des Demandes</span>
             </a>
-            <a class="sidebar-links">
+            <a href="retours" class="sidebar-links">
                 <img src="" alt="">
                 <span class="hidden">Gestion des Retours</span>
             </a>
-            <a class="sidebar-links">
+            <a href="deconnexion" class="sidebar-links">
                 <img src="" alt="">
                 <span class="hidden">Deconnexion</span>
             </a>
@@ -49,7 +49,7 @@
 
     <div class="sidebar-bottom">
         <div class="sidebar-links">
-            <a class="link">
+            <a href="" class="link">
                 <img src="" alt="">
                 <span class="hidden"></span>
             </a>
