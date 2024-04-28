@@ -17,21 +17,33 @@
     
             <a class="sidebar-links">
                 <img src="" alt="">
-                <span class="hidden">Gestion Abonnes</span>
+                <span class="hidden">Gestion des Abonnes</span>
             </a>
 
             <a class="sidebar-links">
                 <img src="" alt="">
-                <span class="hidden">Gestion Emprunts</span>
+                <span class="hidden">Gestion des Emprunts</span>
             </a>
 
             <a class="sidebar-links">
                 <img src="" alt="">
-                <span class="hidden">Gestion Livres</span>
-                <a class="sidebar-link-2">
-                    <img src="" alt="">
-                    <span class="hidden">Gestion Exemplaires</span>
-                </a>
+                <span class="hidden">Gestion des Livres</span>
+            </a>
+            <a class="sidebar-links">
+                <img src="" alt="">
+                <span class="hidden">Gestion des Exemplaires</span>
+            </a>
+            <a class="sidebar-links">
+                <img src="" alt="">
+                <span class="hidden">Gestion des Demandes</span>
+            </a>
+            <a class="sidebar-links">
+                <img src="" alt="">
+                <span class="hidden">Gestion des Retours</span>
+            </a>
+            <a class="sidebar-links">
+                <img src="" alt="">
+                <span class="hidden">Deconnexion</span>
             </a>
         </div>
 
