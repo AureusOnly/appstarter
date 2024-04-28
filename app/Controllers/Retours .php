@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Livres extends BaseController
+class Retours extends BaseController
 {
     public function index(): string
     {
@@ -11,7 +11,7 @@ class Livres extends BaseController
             view('templates/header', [
                 'loggedIn' => $session->get('loggedIn'),
                 'name' => $session->get('username')
-            ]) . view('Livres') .
+            ]) . view('retours') .
             view('templates/footer');
         return $template;
 
