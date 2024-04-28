@@ -12,4 +12,6 @@ $routes->get('/abonnes', 'Abonnes::index');
 $routes->get('/emprunts', 'Emprunts::index');
 $routes->get('/livres', 'Exemplaires::index');
 $routes->get('/exemplaires', 'Livres::index');
+$routes->get('/retours', 'Retours::index');
+$routes->get('/demandes', 'Demandes::index');
 $routes->post('/login', 'Connection::attemptLogin');
