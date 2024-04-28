@@ -14,4 +14,5 @@ $routes->get('/livres', 'Livres::index');
 $routes->get('/exemplaires', 'Exemplaires::index');
 $routes->get('/demandes', 'Demandes::index');
 $routes->get('/retours', 'Retours::index');
+$routes->get('/deconnexion', 'Deconnexion::deconnexion');
 $routes->post('/login', 'Connection::attemptLogin');
