@@ -28,7 +28,7 @@ class Connection extends BaseController
         } else if (
             isset($rechercheabonne) && $rechercheabonne['nom_abonne'] === $values['password']
         ) {
-            return $this->loginUser($rechercheabonne);
+            return $this->loginUser((object) $rechercheabonne);
         }
         else {
             return redirect()->to("/login");
@@ -45,8 +45,9 @@ class Connection extends BaseController
     private function loginUser(?object $user = null)
     {
         $session = session();
+        $data = (array) $user;
             $session->set([
-                'username' => isset($user) ? (strtoupper($user['nom_abonne'])) : 'Administrator',
+                'username' => isset($user) ? (strtoupper($data['nom_abonne'])) : 'Administrator',
                 'role' => isset($user) ? 'user' : 'admin',
                 'loggedIn' => true
             ]);
