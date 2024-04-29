@@ -14,4 +14,11 @@ $routes->post("/abonnes/(:num)", "Abonne::updateAbonne", ["filter" => "isAdmin"]
 
 
 $routes->get('/login', 'Connection::index');
+$routes->get('/abonnes', 'Abonnes::index');
+$routes->get('/emprunts', 'Emprunts::index');
+$routes->get('/livres', 'Livres::index');
+$routes->get('/exemplaires', 'Exemplaires::index');
+$routes->get('/demandes', 'Demandes::index');
+$routes->get('/retours', 'Retours::index');
+$routes->get('/deconnexion', 'Deconnexion::deconnexion');
 $routes->post('/login', 'Connection::attemptLogin');

@@ -9,10 +9,10 @@ class abonne extends Model
 {
     protected $table = 'abonne';
     protected $primaryKey = 'matricule_abonne';
-    protected $alloowedFields = ['matricule_abonne', 'nom_abonne'];
-}
+    protected $allowedFields = ['matricule_abonne', 'nom_abonne'];
 
-function getAbonneByMatricule($matricule)
-{
+    function getAbonneByMatricule($matricule)
+    {
         return $this->find($matricule);
+    }
 }
