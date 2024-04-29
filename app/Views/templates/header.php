@@ -44,16 +44,10 @@
 
 <body>
     <header>
-<<<<<<< HEAD
         <h1>Esicad - Gestion de Bibliothèque</h1>
         <?php if (isset($loggedIn) && $loggedIn == true) : ?>
             <div class="logged-in-message">
                 <span>Bonjour, <?= esc($name) ?></span>
             </div>
         <?php endif ?>
-=======
-    <div class="blue-bg"></div>
-<div class="white-bg shadow"></div>
-<div class="content">
->>>>>>> 7c7964d78e574149505613e3ed599d5460d035d5
     </header>
