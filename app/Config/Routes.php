@@ -7,8 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index' , ['filter' =>\App\Filters\AuthenticatedFilter::class]);
 $routes->get('/home', 'Home::index',['filter' =>\App\Filters\AuthenticatedFilter::class]);
-$routes->get("/abonnes","Abonne::index", ["filter"  => "isAdmin]):
-$routes->post("/abonnes/(:num)", "Abonne::updateAbonne", ["filter" => "isAdmin]);
+$routes->get("/abonnes","Abonne::index", ["filter"  => "isAdmin"]);
+$routes->post("/abonnes/(:num)", "Abonne::updateAbonne", ["filter" => "isAdmin"]);
 
 
 
