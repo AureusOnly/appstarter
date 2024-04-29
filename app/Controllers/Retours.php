@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Retours extends BaseController
 {
     public function index(): string
     {
@@ -11,7 +11,7 @@ class Home extends BaseController
             view('templates/header', [
                 'loggedIn' => $session->get('loggedIn'),
                 'name' => $session->get('username')
-            ]) . view('admin_accueil') . view('templates/side_menu');
+            ]) . view('retours') .
             view('templates/footer');
         return $template;
 
