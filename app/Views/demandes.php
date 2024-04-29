@@ -2,7 +2,7 @@
 
 <a href="">Effectuer une demande</a>
 <a href="">Mes demandes</a>
-<a href="">Liste des demandes</a>
+<a href="liste_demandes.php">Liste des demandes</a>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -46,5 +46,46 @@
         <li><a href="emprunts.php">Gérer les emprunts</a></li>
         <li><a href="abonne.php">Gérer les abonnés</a></li>
     </ul>
+</body>
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historique des demandes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Historique des demandes</h1>
+    </header>
+    <div class="historique">
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Insérez vos données de demande ici -->
+                <tr>
+                    <td>01/04/2024</td>
+                    <td>Demande de renseignements</td>
+                    <td>En attente</td>
+                </tr>
+                <tr>
+                    <td>15/04/2024</td>
+                    <td>Demande de support technique</td>
+                    <td>Résolue</td>
+                </tr>
+                <!-- Ajoutez d'autres lignes de demande selon vos besoins -->
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <!-- Votre contenu de pied de page ici -->
+    </footer>
 </body>
 </html>
