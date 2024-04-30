@@ -1,14 +1,11 @@
-<div class="dropdown">
-  <button class="button"> Menu </button>
-  <div class="pages">
-    <a href="">Abonnes</a>
-    <a href="">Livres</a>
-    <a href="">Exemplaires</a>
-    <a href="">Emprunts</a>
-    <a href="">Demandes</a>
-    <a href="">Retours</a>
-    <a href="">Déconnexion</a>
-  </div>
-</div>
-
-<p> lorem ipsum dolor</p>
+<div class="side-menu">
+  <ul>
+    <li><a href="#">Abonne</a></li>
+    <li><a href="#">Livres</a></li>
+    <li><a href="#">Exemplaires</a></li>
+    <li><a href="#">Emprunts</a></li>
+    <li><a href="#">Demandes</a></li>
+    <li><a href="#">Retours</a></li>
+    <li><a href="#">Deconnexion</a></li>
+  </ul>
+</div
