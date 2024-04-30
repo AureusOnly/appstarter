@@ -1,6 +1,5 @@
 
     <div class="login">
-        <h1>Bibliothèque</h1>
         <form method="POST" action="/login">
             <div class="container">
                 <input id="login" required="" type="text" name="login" class="input">
