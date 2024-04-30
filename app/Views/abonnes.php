@@ -9,30 +9,30 @@
 </head>
 <body>
 
-<h1>Gestion des abonnés</h1>
-
-<!-- Icône de menu -->
-<div class="menu-icon" onclick="toggleMenu()">
-    <i class="fas fa-bars"></i>
-</div>
-
-<!-- Options de menu -->
-<div class="menu-options" id="menuOptions">
-    <ul>
-        <li><a href="#">consulter mes informations</a></li>
-        <li><a href="#">Enregistrer un abonné</a></li>
-        <li><a href="#">Consulter les informations abonné</a></li>
-        <li><a href="#">Modifier les informations abonné</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Abonnés</a></li>
-        <li><a href="#">Emprunts</a></li>
-        <li><a href="#">Livres</a></li>
-        <li><a href="#">Exemplaires</a></li>
-        <li><a href="#">Demandes</a></li>
-        <li><a href="#">Retours</a></li>
-        <li><a href="#">Déconnexion</a></li>
-    </ul>
-</div>
+<header>
+    <div class="container">
+        <h1>Gestion des abonnés</h1>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="menu-options" id="menuOptions">
+            <ul>
+                <li class="menu-link"><a href="#">Consulter mes informations</a></li>
+                <li class="menu-link"><a href="#">Enregistrer un abonné</a></li>
+                <li class="menu-link"><a href="#">Consulter les informations abonné</a></li>
+                <li class="menu-link"><a href="#">Modifier les informations abonné</a></li>
+                <li class="menu-link"><a href="#">Home</a></li>
+                <li class="menu-link"><a href="#">Abonnés</a></li>
+                <li class="menu-link"><a href="#">Emprunts</a></li>
+                <li class="menu-link"><a href="#">Livres</a></li>
+                <li class="menu-link"><a href="#">Exemplaires</a></li>
+                <li class="menu-link"><a href="#">Demandes</a></li>
+                <li class="menu-link"><a href="#">Retours</a></li>
+                <li class="menu-link"><a href="#">Déconnexion</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
 <script src="script.js"></script>
 
