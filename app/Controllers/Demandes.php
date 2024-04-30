@@ -17,4 +17,8 @@ class Demandes extends BaseController
 
      
     }
+
+    public function index(): string
+
+    
 }
