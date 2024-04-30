@@ -16,4 +16,4 @@ $routes->get('/demandes', 'Demandes::index');
 $routes->get('/retours', 'Retours::index');
 $routes->post('/login', 'Connection::attemptLogin');
 $routes->get('/deconnexion', 'Deconnexion::deconnexion');
-$routes->get('/', 'Connection::attemptLogin');
+$routes->post('/login', 'Connection::attemptLogin');
