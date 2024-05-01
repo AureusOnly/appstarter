@@ -80,7 +80,7 @@ button{
   background-image: linear-gradient(to right, #AF8260, #803D3B);
   background-repeat: repeat-x;
   animation: wave 2s infinite linear;
-  color: white;
+  color: black;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -91,7 +91,7 @@ button{
   left: 0;
   padding: 10px;
   background-color: black;
-  color: white;
+  color: black;
 }
 
 :root {
@@ -168,4 +168,56 @@ body.active nav{
 .side-menu{
   margin-bottom: 1.5rem;
 }
+}
+
+/* Existing CSS styles */
+
+/* Add the new styles below */
+
+.side-menu {
+  position: fixed; /* or absolute depending on your needs */
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust width as needed */
+  height: 100vh; /* Make it full height */
+  background-color: #AF8260;
+  padding: 1rem;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#menuList {
+  list-style-type: none;
+}
+
+.link-name {
+  color: white;
+  text-decoration: none;
+}
+.side-menu {
+  position: fixed; /* or absolute depending on your needs */
+  top: 40px; /* Adjust the top position to accommodate your header height */
+  left: 0;
+  width: 200px; /* Adjust width as needed */
+  height: calc(100vh - 300px); /* Adjust height to fit the remaining viewport height */
+  background-color: #AF8260;
+  padding: 1rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%; /* Adjust width as needed */
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+span {
+  color: #000000;
 }

@@ -11,3 +11,4 @@ class Demandes extends BaseController
         return view('liste_des_demandes', ['demandes' => $demandes]);
     }
 }
+

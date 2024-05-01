@@ -11,14 +11,8 @@ class Demandes extends BaseController
             view('templates/header', [
                 'loggedIn' => $session->get('loggedIn'),
                 'name' => $session->get('username')
-            ]) . view('demandes') .
+            ]) . view('demandes') .  view('templates/side_menu') .
             view('templates/footer');
         return $template;
-
-     
     }
-
-    public function index(): string
-
-    
 }

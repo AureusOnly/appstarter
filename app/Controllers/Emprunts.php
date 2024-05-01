@@ -11,7 +11,7 @@ class Emprunts extends BaseController
             view('templates/header', [
                 'loggedIn' => $session->get('loggedIn'),
                 'name' => $session->get('username')
-            ]) . view('emprunts') .
+            ]) . view('emprunts') .  view('templates/side_menu') .
             view('templates/footer');
         return $template;
 

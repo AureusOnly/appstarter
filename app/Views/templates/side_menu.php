@@ -1,4 +1,4 @@
-<div class="side-menu">
+<nav class="side-menu">
   <button id="toggleButton">Menu</button>
   <div class="menu-container">
     <ul id="menuList" style="display: none;">
@@ -39,7 +39,7 @@
       </li>
     </ul>
   </div>
-</div>
+</nav>
 
 <script>
   const toggleButton = document.getElementById('toggleButton');

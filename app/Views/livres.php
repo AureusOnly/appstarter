@@ -1,5 +1,14 @@
-<h1>Gestion des livres</h1>
-
-<a href="">ajouter un livre</a>
-<a href="">supprimer un livre</a>
-<a href="">consulter la liste des livres</a>
+<div class="container">
+    <h1>Gestion des livres</h1>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="menu-options" id="menuOptions">
+            <ul>
+                <li class="menu-link"><a href="">ajouter un livre</a></li>
+                <li class="menu-link"><a href="">supprimer un livre</a></li>
+                <li class="menu-link"><a href="">consulter la liste des livres</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="script.js"></script>

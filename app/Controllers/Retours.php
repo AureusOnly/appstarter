@@ -11,7 +11,7 @@ class Retours extends BaseController
             view('templates/header', [
                 'loggedIn' => $session->get('loggedIn'),
                 'name' => $session->get('username')
-            ]) . view('retours') .
+            ]) . view('retours') .   view('templates/side_menu') .
             view('templates/footer');
         return $template;
 
